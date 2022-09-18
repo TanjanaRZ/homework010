@@ -29,7 +29,7 @@ for (int i = 0; i < array.Length; i++)
         count++;
     }
 }
-
+Console.WriteLine(string.Join(", " ,newArray));
 
 
 
