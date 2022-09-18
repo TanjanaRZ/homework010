@@ -19,7 +19,7 @@ for (int i = 0; i < array.Length; i++)
         count++;
     }
 }
-
+string[] newArray = new string[count];
 
 
 
