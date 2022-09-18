@@ -11,25 +11,6 @@
 
 string[] array = { "Hello", "2", "world", ":-)" };
 int count = 0;
-string[] newArray = new string[array.Length];
-for (int i = 0; i < array.Length; i++)
-{
-    if (array[i].Length <= 3)
-    {
-        newArray[count] = array[i];
-        count++;
-    }
-}
-for (int i = 0; i < count; i++)
-{
-    Console.Write(newArray[i] + " ");
-}
-Console.WriteLine();
-
-
-
-string[] array = { "Hello", "2", "world", ":-)" };
-int count = 0;
 //string[] newArray= new string [array.Length];
 for (int i = 0; i < array.Length; i++)
 {
@@ -38,17 +19,7 @@ for (int i = 0; i < array.Length; i++)
         count++;
     }
 }
-string[] newArray = new string[count];
-count = 0;
-for (int i = 0; i < array.Length; i++)
-{
-    if (array[i].Length <= 3)
-    {
-        newArray[count] = array[i];
-        count++;
-    }
-}
-Console.WriteLine(string.Join(", " ,newArray));
+
 
 
 
